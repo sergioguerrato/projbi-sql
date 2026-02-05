@@ -1,10 +1,9 @@
-Financial BI — Contabilidade Gerencial (SQL-first)
+Financial BI - Contabilidade Gerencial (SQL-first)
 
 Projeto de Business Intelligence end-to-end, focado em Contabilidade Gerencial, desenvolvido com ênfase em SQL, modelagem dimensional, métricas financeiras confiáveis e dashboards interativos.  
 O objetivo é simular a atuação de um time de dados em ambiente corporativo, fornecendo suporte à tomada de decisão executiva por meio de análises de DRE, custos, margens, fluxo de caixa e orçamento.
 
 ---
-
 > Objetivo
 
 Construir um sistema analítico capaz de:
@@ -17,7 +16,6 @@ Construir um sistema analítico capaz de:
 Este projeto tem foco em análise gerencial, não em escrituração contábil legal (ERP).
 
 ---
-
 > Perguntas de Negócio
 
 - Qual é o resultado operacional (DRE gerencial) do período?
@@ -28,7 +26,6 @@ Este projeto tem foco em análise gerencial, não em escrituração contábil le
 - Quais custos ou despesas apresentam comportamento atípico?
 
 ---
-
 > Arquitetura (Visão Geral)
 
 O sistema foi estruturado seguindo boas práticas de BI e Analytics, com separação clara entre ingestão, transformação, semântica e visualização.
@@ -46,7 +43,6 @@ Fonte → Raw / Bronze → Staging / Silver → Marts / Gold → Métricas → D
 Detalhes completos em `docs/architecture.md`
 
 ---
-
 > Modelo de Dados
 
 O modelo segue abordagem dimensional (Star Schema).
@@ -67,7 +63,6 @@ O modelo segue abordagem dimensional (Star Schema).
 Detalhes em `docs/data_model.md`
 
 ---
-
 > Métricas Gerenciais
 
 As métricas são definidas em uma camada semântica única, garantindo consistência entre todos os dashboards.
@@ -86,7 +81,6 @@ Exemplos:
 Definições completas em `docs/metrics.md`
 
 ---
-
 > Dashboards
 
 Os dashboards são organizados por nível de decisão:
@@ -106,10 +100,9 @@ Os dashboards são organizados por nível de decisão:
 - Lançamentos e exceções
 - Drill-down até o nível transacional
 
-📄 Detalhes em `docs/dashboards.md`
+Detalhes em `docs/dashboards.md`
 
 ---
-
 Qualidade e Confiabilidade dos Dados
 
 - Regras de integridade (PK, FK, unicidade)
@@ -118,7 +111,6 @@ Qualidade e Confiabilidade dos Dados
 - Separação explícita entre competência e caixa
 
 ---
-
 Roadmap
 
 - v0.1 — Fundação
@@ -137,7 +129,6 @@ Roadmap
   - Projeto consolidado para portfólio
 
 ---
-
 Estrutura do Repositório
 
 ├─ sql/
@@ -157,7 +148,6 @@ Estrutura do Repositório
 
 
 ---
-
 Observação Final
 
 Este projeto representa uma camada analítica corporativa, onde:
@@ -166,5 +156,4 @@ Este projeto representa uma camada analítica corporativa, onde:
 - Decisões são baseadas em dados confiáveis e auditáveis
 
 ---
-
 Autor: Sérgio Guerrato
