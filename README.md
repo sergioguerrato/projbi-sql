@@ -111,7 +111,7 @@ Qualidade e Confiabilidade dos Dados
 - Separação explícita entre competência e caixa
 
 ---
-Roadmap
+> Roadmap
 
 - v0.1 — Fundação
   - Modelo dimensional
@@ -129,7 +129,7 @@ Roadmap
   - Projeto consolidado para portfólio
 
 ---
-Estrutura do Repositório
+> Estrutura do Repositório
 
 ├─ sql/
 │ ├─ 01_staging/
@@ -148,7 +148,7 @@ Estrutura do Repositório
 
 
 ---
-Observação Final
+> Observação Final
 
 Este projeto representa uma camada analítica corporativa, onde:
 - Regras de negócio ficam no banco (SQL)
@@ -156,4 +156,5 @@ Este projeto representa uma camada analítica corporativa, onde:
 - Decisões são baseadas em dados confiáveis e auditáveis
 
 ---
-Autor: Sérgio Guerrato
+> Autor
+Sérgio Guerrato
